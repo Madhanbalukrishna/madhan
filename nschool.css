@@ -1,0 +1,81 @@
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+/* home */
+.container{
+    height: 700px;
+    border: 2px solid;
+}
+/* media */
+.media{
+    height: 50px;
+    border-bottom: 2px solid;
+    display: flex;
+}
+.filyt{
+    display: flex;
+    padding: 2px;
+}
+.mailwhats{
+    padding: 5px;
+    display: block;
+}
+.f,.i,.l,.y,.t{
+    padding: 5px;
+}
+.C{
+    width: 100px;
+    max-height:20px;
+    margin: 8.8px;
+    margin-left: 10px;
+    text-align: center;
+    border-left: 2px solid;
+}
+.mail{
+    width: 60%;
+    text-align: right;
+    padding-right: 20px;
+}
+.whats{
+    width: 40%;
+    text-align: center;
+    padding-left: 5px;
+    border-left: 2px solid;
+}
+/* titlenav */
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    float:center;
+}
+nav > ul > li{
+    list-style: none;
+}
+.nav-ul{
+    display:block;
+    justify-content: space-between;
+}
+.titlenav{
+    height:100px;
+    border: 2px dotted;
+}
+.title{
+    width: 20%;
+    font-size: 30px;
+    border: 2px solid;
+}
+.nav{
+    width: 40%;
+    border: 2px solid;
+}
+.set1,.set2{
+    width: 20px;
+    border: 2px solid;
+}
