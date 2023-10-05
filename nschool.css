@@ -18,10 +18,17 @@ strong{
 .secondary{
     color:#333333;
 }
-/* home */
-.home{
+/* mask */
+.mask1{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 300px;
+    float: left;
+}
+.Page{
     border: 2px dotted;
 }
+/* Home */
 .container{
     height: auto;
     border: 2px solid;
@@ -112,7 +119,6 @@ nav > ul > li{
     margin: 20px 10px;
     padding: 5px;
     justify-content: space-between;
-
 }
 .col3{
     width: 80%;
@@ -148,4 +154,47 @@ nav > ul > li{
 }
 .pad{
     padding: 15px;
+}
+/* Course */
+.container{
+    height: auto;
+    border: 2px solid;
+}
+/* title */
+.course{
+    height: 800px;
+    margin: 10px;
+    border: 2px dotted;
+}
+.title1{
+    margin: 8px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+}
+.content1{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid;
+}
+/* course details */
+.courses{
+    height: 800px;
+    margin: 8px;
+    border: 2px solid;
+}
+.offer1{
+    height: 300px;
+    border: dotted;
+}
+.full,.flutter{
+    max-width: 450px;
+    height: 293px;
+    background-image: url(./NS_PNG/Group\ 1000006176.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.flutter{
+    margin-right:20px;
 }
