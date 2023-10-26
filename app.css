@@ -1,0 +1,109 @@
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width:50%;
+    float: right;
+}
+ul > li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+    display:flex;
+}
+
+.home{
+    height: 700px;
+    /* color: white; */
+    border: 2px solid;
+}
+.list{
+    height: 50px;
+    background-color: red;
+    border: 2px dotted;
+}
+.container-xxl{
+    max-width: 1270px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+.tag{
+    max-width: 600px;
+    height: 80%;
+    margin: 4px;
+    border: 2px solid black;
+}
+.lcmw{
+    max-width: 700px;
+    height:100%;
+    border: 2px solid black;
+}
+.dropdown button {
+    width:120px;
+    height:100%;
+    position: relative;
+    background-color: red;
+}
+
+/* Style the dropdown items */
+.dropdown-menu .dropdown-item {
+    width: 120px;
+    color: #333; /* Set the text color */ 
+    border: 2px solid;
+}
+
+/* On hover, highlight the dropdown items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ddd; 
+    border: dotted black;
+}
+
+/* Remove default Bootstrap box shadow on focus */
+.dropdown button:focus {
+    box-shadow: none;
+    border: 2px dotted;
+}
+.deals{
+    padding: 5px;
+}
+
+.megashop{
+    width:100%;
+    height: 100px;
+    background-color: #af0404;
+    /* border: 2px dotted; */
+}
+.title,.search{
+    margin: 7px;
+    float: left;
+    align-items: center;
+}
+.title{
+    width: 20%;
+    height: 80%;
+    padding: 10px;
+    /* border: 2px dotted; */
+}
+.search{
+    width: 50%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+.input-group{
+    border: 2px dotted;
+}
+.form-control.input-lg{
+    /* border: 2px solid black; */
+}
+.select-wrapper{
+    /* border:2px solid black; */
+}
+.form-control.innner-search{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 2px;
+    border-left:2px solid silver ; */
+}
