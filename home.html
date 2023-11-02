@@ -22,10 +22,11 @@
                                 </div>
                                 <div class="lcmw right">
                                         <ul>
-                                                <li>
+                                                <li class="">
                                                         <div class="dropdown">
                                                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                  Language
+                                                                        <img src="./english-flag.png" alt="en-flag" style="width: 16px;">
+                                                                        Language
                                                                 </button>
                                                                 <ul class="dropdown-menu">
                                                                         <li>
@@ -46,7 +47,7 @@
                                                 <li>
                                                         <div class="dropdown">
                                                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        Currency
+                                                                        $ Currency
                                                                 </button>
                                                                 <ul class="dropdown-menu">
                                                                         <li>
@@ -81,7 +82,13 @@
                                                                 </ul>
                                                         </div>
                                                 </li>
-                                                <li></li>
+                                                <li>
+                                                        <div class="dropdown">
+                                                                <button class="btn btn-secondary " type="button"  aria-expanded="false">
+                                                                        Wishlist(0)
+                                                                </button>
+                                                        </div>
+                                                </li>
                                         </ul>
                                 </div>
                                 
@@ -93,62 +100,72 @@
                         <div class="container-xxl">
                         <div class="tsc">
                                 <div class="title">
-                                <img src="./logo/logo.png" alt="logo" style="width: 100%;">
+                                <img src="./logo/logo.png" alt="logo">
                                 </div>
                                 <div class="search">
-                                <div id="header-search" class="input-group">
-                                        <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg">
-                                        <div class="select-wrapper">
-                                        <select name="category_id" class="form-control innner-search">
-                                                <option value="0">Categories</option>
-                                                <option value="20">Electronics</option>
-                                                <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laptops</option>
-                                                <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acer</option>
-                                                <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dell</option>
-                                                <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lenovo</option>
-                                                <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile</option>
-                                                <option value="57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apple</option>
-                                                <option value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motorola</option>
-                                                <option value="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Samsung</option>
-                                                <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accessories</option>
-                                                <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power Banks</option>
-                                                <option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cases &amp; Covers</option>
-                                                <option value="24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memory Cards</option>
-                                                <option value="25">Dell</option>
-                                                <option value="65">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All watches</option>
-                                                <option value="69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casio</option>
-                                                <option value="68">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fastrack</option>
-                                                <option value="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sonata</option>
-                                                <option value="61">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Footwear</option>
-                                                <option value="62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casual Shoes</option>
-                                                <option value="64">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sandals &amp; Floaters</option>
-                                                <option value="63">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sports Shoes</option>
-                                                <option value="60">HTC</option>
-                                                <option value="59">Mobile</option>
-                                                <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baby Clothing</option>
-                                                <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boys Clothing</option>
-                                                <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Girls Clothing</option>
-                                                <option value="72">samsung</option>
-                                                <option value="73">lenovo</option>
-                                                <option value="74">Nokia</option>
-                                                <option value="75">Digital-camera</option>
-                                                <option value="76">Gionee</option>
-                                                <option value="77">intex</option>
-                                                <option value="78">Philips</option>
-                                                <option value="79">Apple</option>
-                                                <option value="80">oppo</option>
-                                                <option value="81">Sony</option>
-                                                <option value="82">hitachi</option>
-                                        </select>
+                                        <div id="header-search" class="input-group">
+                                                <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg">
+                                                <div class="select-wrapper">
+                                                <select name="category_id" class="form-control innner-search">
+                                                        <option value="0">Categories</option>
+                                                        <option value="1">Clothes</option>
+                                                        <option value="">Footwears</option>
+                                                        <option value="">Toys</option>
+                                                        <option value="">Accessories</option>
+                                                        <option value="">
+                                                                Electronics
+                                                                <option value="">Mobiles</option>
+                                                                <option value="">Laptops</option>
+                                                        </option>
+                                                </select>
+                                                </div>
+                                                <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i>
+                                                        Search	
+                                                </button>
+                                                </span>
                                         </div>
-                                        <span class="input-group-btn">
-                                        <button type="button" class="btn btn-default btn-lg search2"><i class="fa fa-search"></i>
-                                                Search	
-                                        </button>
-                                        </span>
                                 </div>
+                                <div class="callcart">
+                                        <div class="call">
+                                                <img class="icon" src="./call-center-symbol-svgrepo-com.svg" alt="call">
+                                                <p style="display: inline;">
+                                                        Call Center 
+                                                        088-888-8888
+                                                </p>
+                                        </div>
+                                        <div class="cart">
+                                               <h5> 
+                                                Cart
+                                                <img src="./shopping_cart.svg" alt="cart" style="width: 24px;">
+                                               </h5>
+                                        </div>
                                 </div>
                         </div>
+                        </div>
+                </div>
+                <div class="product">
+                        <div class="flat container-xxl">
+                                <img src="./topbanner-1.jpg" alt="top" class="banner">
+                        </div>
+                        <div class="megapro">
+                                <div class="minileft">
+                                    <div class="">
+                                    </div>
+                                    <div class=""></div>
+                                    <div class=""></div>
+                                    <div class=""></div>
+                                </div>
+                                <div class="center">
+                                    <div class="cenpro">
+                                    </div>
+                                </div>
+                                <div class="miniright">
+                                    <div class="pro"></div>
+                                    <div class="pro"></div>
+                                    <div class="pro"></div>
+                                    <div class="pro"></div>
+                                </div>
                         </div>
                 </div>
         </div>
