@@ -13,11 +13,6 @@ ul{
     padding: 0;
     display:flex;
 }
-.icon{
-    width: 20%;
-    float: left;
-    border: 2px dotted;
-}
 .home{
     height: 700px;
     color: white;
@@ -32,7 +27,7 @@ ul{
     max-width: 1270px;
     height: 100%;
     margin: 0 auto;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .tag{
     max-width: 600px;
@@ -86,7 +81,7 @@ ul{
 }
 .dropdown-li{
     max-width: 100px;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 /* Remove default Bootstrap box shadow on focus */
 .dropdown button:focus {
@@ -100,75 +95,64 @@ ul{
 
 .megashop{
     width:100%;
-    height: 100px;
+    height: 13%;
     padding: 10px;
     background-color: #f12a43;
-    /* border: 2px dotted; */
-}
-.title,.search{
-    float: left;
-    align-items: center;
+    border: 2px dotted;
 }
 .title{
-    width: 20%;
     height: 80%;
     padding: 10px;
-    /* border: 2px dotted; */
+    border: 2px dotted;
 }
 .search{
-    width: 50%;
-    margin-top: 20px;
+    margin: 15px 0px;
     /* border: 2px solid black; */
-}
-.form-control.input-lg{
-    /* border: 2px solid black; */
-}
-.select-wrapper{
-    /* border:2px solid black; */
 }
 .form-control.innner-search{
     width: 100%;
-    height: 80%;
+    height:100%;
     border-radius: 2px;
     border-left:1px solid silver ;
 }
-.btn-default{
-    color: white!important;
-    border: 2px solid white;
-}
-.input-group-btn{
-    height: 50px;
-    /* border: 2px solid; */
+.search-btn{
+    height: 100%;
+    color: white;
+    border-radius: 5px;
     background-color: black!important;
 }
+.input-group-btn{
+
+    
+}
 .callcart{
-    height: 80px;
+    /* width: 25%; */
+    /* height: 80%; */
     display: flex;
     align-items: center;
-    /* border: 2px solid; */
+    border: 2px solid;
 }
-.call,.cart{
+.call{
     width:49%;
-    height: 60px;
-    margin: 9px 5px;
-    padding: 3px;
-    text-align: center;
+    height: 50%;
+    display: flex;
+    align-items: center;
     border: 2px dotted black;
 }
 .cart{
-    height: 50px;
-    padding: 15px;
-    border-left:1px solid silver ;
+    width:49%;
+    height: 40%;
+    border:1px solid silver ;
 }
 .product{
     width: 100%;
-    height: 100%;
+    height: 1000px;
     display: block;
     border: 2px solid black;
 }
 .flat{
     width: 1270px;
-    height: 20%;
+    height: 11.5%;
     margin: 15px auto;
     border: 2px dotted black;
 }
@@ -177,40 +161,44 @@ ul{
 }
 .megapro{
     max-width: 1270px;
-    height: 83%;
+    height: 85%;
     margin: 0 auto;
     display: flex;
     border: 2px dotted black;
 }
 .minileft,.center,.miniright{
+    height: 80%;
     margin: 5px;
     border: 2px dotted black;
 }
 .minileft{
     width: 20%;
-    height: 90%;
+    padding: 5px;
     
+}
+.category{
+    width: 100%;
+    height: 5%;
+    border: 2px solid black;
 }
 .center{
     width: 80%;
-    height: 90%;
    
 }
 .cenpro{
     width: 98%;
-    height: 60%;
+    height: 50%;
     margin: 3px auto;
     padding: 3px;
     border: 2px dashed black;
 }
 .miniright{
     width: 20%;
-    height: 90%;
+    padding: 5px;
 }
 .pro{
-    width: 98.5%;
-    height: 25%;
-    margin: 0px 2px;
-    display: block;
+    width: 90%;
+    height: 24%;
+    margin: 0px 10px;
     border: 2px dashed black;
 }
