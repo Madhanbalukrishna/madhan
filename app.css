@@ -27,7 +27,7 @@ ul{
     max-width: 1270px;
     height: 100%;
     margin: 0 auto;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .tag{
     max-width: 600px;
@@ -98,12 +98,12 @@ ul{
     height: 13%;
     padding: 10px;
     background-color: #f12a43;
-    border: 2px dotted;
+    /* border: 2px dotted; */
 }
 .title{
     height: 80%;
     padding: 10px;
-    border: 2px dotted;
+    /* border: 2px dotted; */
 }
 .search{
     margin: 15px 0px;
@@ -121,39 +121,44 @@ ul{
     border-radius: 5px;
     background-color: black!important;
 }
-.input-group-btn{
-
-    
+.search-btn{
+    width: 100px!important;
+    /* border: 2px solid black; */
 }
 .callcart{
-    height: 80%;
+    /* height: 80%; */
     display: flex;
     align-items: center;
     /* border: 2px solid; */
 }
 .call{
-    height: 50pxx;
+    height: 50px;
     display: inline-flex;
     margin: 5px;
     align-items: center;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
+}
+.call-details{
+    /* margin-bottom: 0px !important; */
 }
 .cart{
-    width: 49%;
-    height: 40%;
-    border:1px solid silver ;
+    width: 50%;
+    /* height: 50%; */
+    text-align: justify;
+    padding: 2px 5px;
+    border-left:1px solid silver ;
 }
 .product{
     width: 100%;
     height: 1000px;
     display: block;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .flat{
     width: 1270px;
     height: 11.5%;
     margin: 15px auto;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .banner{
     width: 100%;
@@ -163,22 +168,21 @@ ul{
     height: 85%;
     margin: 0 auto;
     display: flex;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .minileft,.center,.miniright{
     height: 80%;
     margin: 5px;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .minileft{
     width: 20%;
-    padding: 5px;
-    
+    /* padding: 5px; */
 }
 .category{
     width: 100%;
-    height: 5%;
-    border: 2px solid black;
+    /* height: 5%; */
+    /* border: 2px solid black; */
 }
 .center{
     width: 80%;
@@ -189,7 +193,7 @@ ul{
     height: 50%;
     margin: 3px auto;
     padding: 3px;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 .miniright{
     width: 20%;
@@ -199,5 +203,5 @@ ul{
     width: 90%;
     height: 24%;
     margin: 0px 10px;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
