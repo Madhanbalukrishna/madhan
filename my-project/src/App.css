@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+.left{
+  width: 50%;
+  float: left;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right{
+  width:50%;
+  float: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul > li{
+  list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul{
+  padding: 0;
+  display:flex;
+}
+.btn{
+  border-style: none!important;
+}
+.image{
+  width: 100%;
+  height: 100%;
+}
+.home{
+  height: 700px;
+}
+.list{
+  height: 6%;
   color: white;
+  background-color: #d9263c;
+  /* border: 2px dotted; */
+}
+.container-xxl{
+  max-width: 1270px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 2px dotted black; */
+}
+.tag{
+  max-width: 600px;
+  height: 80%;
+  margin: 5px;
+  /* border: 2px solid black; */
+}
+.lcmw{
+  max-width: 700px;
+  height:100%;
+  /* border: 2px solid black; */
+}
+.dropdown{
+  margin: 6px 20px;
+}
+.dropdown button {
+  width:120px;
+  height:100%;
+  position: relative;
+  background-color: #d9263c;
+}
+.dropdown-menu.show {
+  min-width:15% !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn,.dropdown-toggle{
+  border-color: #d9263c!important;
+}
+.btn:hover{
+  border-color: #d9263c!important;
+}
+.btn-secondary:hover {
+  color: #fff;
+  border-color: #d9263c!important;
+  background-color: #d9263c!important;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+  color: #fff;
+  border-color: #d9263c!important;
+  background-color:#d9263c;
+}
+/* On hover, highlight the dropdown items */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ddd; 
+  /* border: dotted black; */
+}
+.dropdown-li{
+  max-width: 100px;
+  /* border: 2px solid; */
+}
+/* Remove default Bootstrap box shadow on focus */
+.dropdown button:focus {
+  box-shadow: none!important;
+  border-color: #d9263c!important;
+  background-color: #d9263c;
+}
+.deals{
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.megashop{
+  width:100%;
+  height: 12%;
+  padding: 10px;
+  color: white;
+  background-color: #f12a43;
+  /* border: 2px dotted; */
+}
+.title{
+  height: 80%;
+  padding: 10px;
+  /* border: 2px dotted; */
+}
+.search{
+  margin: 15px 0px;
+  /* border: 2px solid black; */
+}
+.form-control.innner-search{
+  width: 100%;
+  height:100%;
+  border-radius: 2px;
+  border-left:1px solid silver ;
+}
+.search-btn{
+  width: 100px!important;
+  height: 100%;
+  color: white!important;
+  /* border-radius: 5px; */
+  background-color: black!important;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow:none!important;
+}
+.callcart{
+  max-height: 80%;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid; */
+}
+.call{
+  width: 50%;
+  height: 60px;
+  display: inline-flex;
+  margin: 5px;
+  align-items: center;
+  /* border: 2px dotted black; */
+}
+.call-details{
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.cart{
+  width: 40%;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 15px;
+  border-left: solid thin black ;
+}
+.product{
+  width: 100%;
+  height: 1000px;
+  display: block;
+  background-color:#f7f7f7;
+  border: 2px solid black;
+}
+.flat{
+  width: 1270px;
+  height: 11.5%;
+  margin: 15px auto;
+  border: 2px dotted black;
+}
+.banner{
+  width: 100%;
+}
+.megapro{
+  max-width: 1270px;
+  height: 85%;
+  margin: 0 auto;
+  display: flex;
+  border: 2px dotted black;
+}
+.minileft,.center,.miniright{
+  height: 80%;
+  margin: 5px;
+  border: 2px dotted black;
+}
+.minileft{
+  width: 20%;
+  /* padding: 5px; */
+}
+.category{
+  width: 97%;
+  margin: 3px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+.center{
+  width: 80%;
+}
+.cenpro{
+  width: auto;
+  height: auto;
+  margin: 3px;
+  border: 2px dashed black;
+}
+.cenbot{
+  width: auto;
+  height: auto;
+  margin: 20px 3px;
+  border: 2px dashed black;
+}
+.miniright{
+  width: 20%;
+  padding: 5px;
+}
+.pro{
+  width: 96%;
+  height: 24%;
+  margin: 0px 5px;
+  border: 2px dashed black;
 }
