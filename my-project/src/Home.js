@@ -1,5 +1,8 @@
 import React from 'react';
-import './App.css';
+// import { Container, Row, Col, Dropdown, ButtonGroup } from 'react-bootstrap';
+import { Container, Row, Col, Dropdown, ButtonGroup } from 'bootstrap';
+import englishFlagImage from './english-flag.png';
+import tamilFlagImage from './tamil-flag.png';
 
 function Home() {
   return (
@@ -8,7 +11,7 @@ function Home() {
         <div className="container-xxl">
           <div className="tag left">
             <h6 className="deals">
-              <img src="./icons/label-svgrepo-com.svg" alt="tag" style={{ width: '16px' }} />
+              <img src="./label-svgrepo-com.svg" alt="tag" style={{ width: '16px' }} />
               Wants to explore Upcoming Deals on Weekends?
             </h6>
           </div>
@@ -17,19 +20,19 @@ function Home() {
               <li>
                 <div className="dropdown">
                   <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="./english-flag.png" alt="en-flag" style={{ width: '16px' }} />
+                  <img src={englishFlagImage} alt="en-flag" style={{ width: '16px' }} />
                     Language
                   </button>
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
-                        <img src="./english-flag.png" alt="en-flag" style={{ width: '16px' }} />
+                      <img src={englishFlagImage} alt="en-flag" style={{ width: '16px' }} />
                         English
                       </a>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        <img src="./tamil-flag.png" alt="tn-flag" style={{ width: '16px' }} />
+                      <img src={tamilFlagImage} alt="tn-flag" style={{ width: '16px' }} />
                         Tamil
                       </a>
                     </li>
@@ -76,7 +79,7 @@ function Home() {
               </li>
               <li>
                 <div className="dropdown">
-                  <button className="btn btn-secondary" type="button" aria-expanded="false">
+                  <button className="btn btn-secondary " type="button" aria-expanded="false">
                     Wishlist(0)
                   </button>
                 </div>
@@ -107,8 +110,9 @@ function Home() {
                   </select>
                 </div>
                 <span className="input-group-btn">
-                  <button type="button" className="btn search-btn"><i className="fa fa-search"></i>
-                    Search	
+                  <button type="button" className="btn search-btn">
+                    <i className="fa fa-search"></i>
+                    Search
                   </button>
                 </span>
               </div>
