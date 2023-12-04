@@ -223,8 +223,8 @@ ul{
   border: 2px dashed black;
 }
 .icon{
-  width: 60%;
-  height:60%;
+  /* width: 60%;
+  height:60%; */
 border: 2px dotted black;
 }
 .service{
